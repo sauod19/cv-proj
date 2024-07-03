@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>السيرة الذاتية</title>
+    <link rel="stylesheet" href="cv.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <button id="navToggle">قائمة التنقل</button>
+    <nav id="navMenu">
+        <ul>
+            <li><a href="#about">حول</a></li>
+            <li><a href="#education">التعليم</a></li>
+            <li><a href="#experience">الخبرات العملية</a></li>
+            <li><a href="#skills">المهارات</a></li>
+            <li><a href="#projects">المشاريع</a></li>
+            <li><a href="#contact">الاتصال</a></li>
+            <li><a href="submit_cv.html" onclick="return confirm('هل تريد الانتقال إلى صفحة تسجيل السيرة الذاتية؟')">جرب تسجيل سيرتك الذاتية</a></li>
+
+        </ul>
+    </nav>
+    <div class="container">
+        <header class="header" data-aos="fade-down">
+            <img src="your-photo.jpg" alt="صورتك الشخصية" class="profile-pic">
+            <h1 id="name">سعود داود الخيبري</h1>
+            <p id="jobTitle">المسمى الوظيفي</p>
+            <p id="contactInfo">البريد الإلكتروني | رقم الهاتف</p>
+        </header>
+        <section id="about" class="about" data-aos="fade-up">
+            <h2>حول</h2>
+            <p id="aboutText">نبذة قصيرة عنك.</p>
+        </section>
+        <section id="education" class="education" data-aos="fade-up">
+            <h2>التعليم</h2>
+            <ul id="educationList">
+                <li>
+                    <h3>جامعه تبوك</h3>
+                    <p>IT | السنة</p>
+                </li>
+            </ul>
+        </section>
+        <section id="experience" class="experience" data-aos="fade-up">
+            <h2>الخبرات العملية</h2>
+            <ul id="experienceList">
+                <li>
+                    <h3>اسم الشركة</h3>
+                    <p>المسمى الوظيفي | الفترة الزمنية</p>
+                    <p>وصف المهام والإنجازات.</p>
+                </li>
+            </ul>
+        </section>
+        <section id="skills" class="skills" data-aos="fade-up">
+            <h2>المهارات</h2>
+            <ul id="skillsList">
+                <li>مهارة 1</li>
+                <li>مهارة 2</li>
+                <li>مهارة 3</li>
+            </ul>
+        </section>
+        <section id="projects" class="projects" data-aos="fade-up">
+            <h2>المشاريع</h2>
+            <ul id="projectsList">
+                <li>
+                    <h3>اسم المشروع</h3>
+                    <p>وصف قصير عن المشروع.</p>
+                </li>
+            </ul>
+        </section>
+        <section id="contact" class="contact" data-aos="fade-up">
+            <h2>الاتصال</h2>
+            <p>تواصل معي على: <a href="mailto:youremail@example.com">البريد الإلكتروني</a></p>
+        </section>
+        <footer class="footer">
+            <p>جميع الحقوق محفوظة &copy; 2024</p>
+        </footer>
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="cv.js"></script>
+</body>
+</html>
